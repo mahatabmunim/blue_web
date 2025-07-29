@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* header start */
+header{;
+    padding: 10px 0;
+    background-color: #121B2A;
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.logo img{
+ width: 100%;
+}
+.manu{    
+    width: 70%;
+    float: right;
+    margin-top: 25px;
+}
+.manu ul {
+    float: right;
+}
+.manu ul li{
+    list-style: none;
+    float: left;
+}
+.manu ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    display: block;
+    color: white;
+    text-transform:uppercase;
+    transition: .5s ;
+}
+.manu ul li:last-child a{
+    padding-right: 0;
+}
+.manu ul li a:hover {
+    color: #5490f7;
+}
+/* header end */
+/* banner start */
+.banner{
+    
+    background-image: url(../img/banner.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 300px; */
+    background-position: center center;
+}
+.banner-content{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    width: 45%;
+}
+.banner-content p:first-child{
+    color: white;
+    font-size: 28px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.banner-content h1 {
+    color: #5490f7;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+.banner-content p:nth-last-child(2){
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.banner-content button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(75, 65, 65);
+    transition: .5s;
+}
+.banner-content button:hover{
+    color: white;
+    background-color: #5490f7;
+}
+/* banner end */
+.serevice{
+    background-color: #121B2B;
+    padding: 50px 0;
+}
+.single{
+    width:28%;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 6px;
+    border-right: rgba(247, 0, 0, 0.804);
+}
+
+.title{
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.icon{
+    width: 20%;
+    float: left;
+}
+.icon img{
+    width: 100%;
+}
+.icon_content {
+    width: 70%;
+    float: left;
+    margin-top: 7px;
+}
+.icon_content h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.icon_content h2 {
+    color: #5490f7;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.content {}
+.content p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.4;
+    font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
